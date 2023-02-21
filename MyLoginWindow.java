@@ -1,5 +1,4 @@
 import java.awt.*;
-import java.awt.event.*;
 class MyLoginWindow extends Frame
 {
     TextField name,pass;
@@ -27,7 +26,6 @@ class MyLoginWindow extends Frame
         pass.setBounds(200,140,90,20);
         b1.setBounds(100,260,70,40);
         b2.setBounds(180,260,70,40);
-
     }
     public static void main(String args[])
     {
@@ -35,6 +33,5 @@ class MyLoginWindow extends Frame
         ml.setVisible(true);
         ml.setSize(400,400);
         ml.setTitle("my login window");
-
     }
 }
